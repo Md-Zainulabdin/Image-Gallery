@@ -1,9 +1,10 @@
 "use client";
 
-import { cn } from "@/libs/cn";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+
+import { cn } from "@/libs/cn";
 
 const ImageGallery = () => {
   const [isLoading, setIsLoading] = useState(true);
